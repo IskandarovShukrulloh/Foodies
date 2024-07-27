@@ -2,7 +2,8 @@
 SQLyog Ultimate v10.42 
 MySQL - 8.0.30 : Database - store
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -30,7 +31,7 @@ CREATE TABLE `admins` (
 
 /*Data for the table `admins` */
 
-insert  into `admins`(`id`,`username`,`login`,`password`) values (3,'admin','admin','admin'),(4,'Administrator2','user','123'),(5,'Shukrulloh','isk','1441'),(7,'admin','admin','admin');
+insert  into `admins`(`id`,`username`,`login`,`password`) values (5,'Shukrulloh','isk','1441');
 
 /*Table structure for table `Employers` */
 
@@ -49,7 +50,7 @@ CREATE TABLE `Employers` (
 
 /*Data for the table `Employers` */
 
-insert  into `Employers`(`id`,`name`,`surname`,`birthday`,`gender`,`position`,`file`) values (13,'Alexander','Pierce','1989-07-13','Male','Administrator',''),(14,'Liz','Wilson','2000-01-25','Male','Co-Director',NULL),(15,'Steve','Stevenson','1990-01-26','Male','Developer',NULL),(50,'Anatoly','Valerin','1997-11-11','Male','Gym',NULL);
+insert  into `Employers`(`id`,`name`,`surname`,`birthday`,`gender`,`position`,`file`) values (13,'Alexander','Pierce','1989-07-13','Male','Administrator','alex.jpg');
 
 /*Table structure for table `posts` */
 
